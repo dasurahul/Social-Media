@@ -1,0 +1,119 @@
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+  background-image: var(--background-image);
+}
+
+.form-container {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: var(--white-color);
+  border-radius: 10px;
+}
+
+.title {
+  margin: 20px 0 60px 0;
+}
+
+.title h1 {
+  font-family: "Lobster", sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.black {
+  color: var(--black-color);
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 15px 5px;
+  border: none;
+  border-bottom: 2px solid var(--gray-color);
+  outline: none;
+  margin-bottom: 20px;
+}
+
+::placeholder {
+  color: var(--gray-color);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: var(--gray-color);
+}
+
+::-ms-input-placeholder {
+  color: var(--gray-color);
+}
+
+.button {
+  width: 100%;
+  padding: 15px 5px;
+  background-color: var(--background-color);
+  background-image: var(--background-image);
+  color: var(--white-color);
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+  margin-bottom: 40px;
+}
+
+.gray {
+  color: var(--gray-color);
+}
+
+.mb-4 {
+  margin-bottom: 40px;
+}
+
+.row {
+  display: flex;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.icon-container {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.icon {
+  width: 100%;
+}
+
+.facebook-color {
+  color: var(--facebook-color);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.link {
+  color: #00dbde;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
