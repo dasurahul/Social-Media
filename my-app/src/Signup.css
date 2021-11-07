@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--background-color);
+  background-color: var(--color);
   background-image: var(--background-image);
 }
 
@@ -65,7 +65,7 @@
 .button {
   width: 100%;
   padding: 15px 5px;
-  background-color: var(--background-color);
+  background-color: var(--color);
   background-image: var(--background-image);
   color: var(--white-color);
   text-transform: uppercase;
@@ -77,7 +77,7 @@
 }
 
 .link {
-  color: var(--background-color);
+  color: var(--color);
   text-decoration: none;
 }
 
