@@ -17,6 +17,7 @@
 
 .title {
   margin: 20px 0 60px 0;
+  user-select: none;
 }
 
 .title h1 {
