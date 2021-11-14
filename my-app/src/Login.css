@@ -113,6 +113,7 @@
 .link {
   color: var(--color);
   text-decoration: none;
+  outline: none;
 }
 
 .link:hover {
